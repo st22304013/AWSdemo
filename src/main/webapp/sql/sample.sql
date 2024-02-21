@@ -9,7 +9,7 @@ create database awsdemo;
 /* ユーザー */
 create user 'carin'@'%' identified by 'startover';
 grant select, update, insert, create, delete, drop on quizoo.* to 'carin'@'%';
-use awsdemo
+use awsdemo;
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
