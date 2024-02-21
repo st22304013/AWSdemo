@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnectionManager {
-    private static final String url = "jdbc:mysql://database-1.ci5ri829smix.us-east-1.rds.amazonaws.com:3306/awsdemo"; // データベースのURL
-    private static final String dbUser = "carin"; // データベースのユーザー名
-    private static final String dbPassword = "startover"; // データベースのパスワード
+    private static final String url = "jdbc:mysql://mydb.c9cwmuqwya1w.us-west-2.rds.amazonaws.com/awsdemo"; // データベースのURL
+    private static final String dbUser = "admin"; // データベースのユーザー名
+    private static final String dbPassword = "uKUQKAudXjZvoEjUKrhZ"; // データベースのパスワード
 	
 //	private static final String url = "jdbc:mysql://localhost:3306/mybbbs"; // データベースのURL
 //    private static final String dbUser = "root"; // データベースのユーザー名
